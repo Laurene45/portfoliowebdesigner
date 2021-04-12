@@ -1,0 +1,27 @@
+Hebergement
+
+
+One.com
+
+ID :  laurene.courde@gmail.com
+
+MDP : Laurenedaya45
+
+
+
+
+
+
+Base de données PHP pour formulaire
+
+
+bdd :  laurenewebdesign_com
+
+
+user : laurenewebdesign_com
+
+
+Mdp :   Laurene45
+
+
+hôte  : laurenewebdesign.com.mysql

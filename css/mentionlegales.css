@@ -1,0 +1,126 @@
+
+
+/*  mise en plage */
+
+#contener {background-image: url(../img/fondplein.jpg);}
+
+
+#header {
+    height: 100%;
+    display: block;
+    font-family: 'Montserrat';
+    padding-top : 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+#header h1{
+    font-size: 40px;
+    line-height: 3;
+    color:  #18d26e;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+#header h2{
+    font-size: 25px;
+    color: #fea347;
+    font-variant: small-caps;
+    font-style: italic;
+    margin-top: 40px;
+
+}
+ 
+
+#header p {
+    color:#ffffff;
+    font-size : 12px;
+    
+}
+
+
+
+/****** RESPONSIVE CONTENU TEXTE  ******/
+
+@media (max-width: 992px) {
+
+    #header h1 {
+      font-size: 36px;
+    }
+
+    #header h2 {
+      font-size: 20px;
+    }
+
+  }
+
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 83%;
+      font-size: 15px;
+    }
+    
+  }
+
+
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 80%;
+      font-size : 15px;
+    }
+
+    #header{
+      margin-left: 25%;
+    }
+    
+  }
+
+
+  @media (max-width: 576px) {
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 77%;
+      font-size: 13px;
+    }
+
+    #header{
+      height: 100%;
+      display: flex;
+      align-items: left;
+      margin-left: 27%;
+    }
+    
+    #header h1 {
+      font-size: 28px;
+        
+    }
+
+    #header h2 {
+      font-size: 18px;
+
+    }
+   
+  }
+
+
+  @media (max-width: 480px) {
+    #contener {height: 1500px;}
+
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 75%;
+      font-size: 13px;
+    }
+
+    #header{
+      margin-left: 28%;
+    }
+    
+    #header h1 {
+      font-size: 25px;  
+    }
+
+  }

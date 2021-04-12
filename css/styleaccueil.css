@@ -1,0 +1,178 @@
+/***** CSS DE LA PAGE D ACCUEIL *****/
+
+/*****STRUCTURE *****/
+#contener {background-image: url(../img/moi1920.jpg);
+}
+
+/****** CONTENU TEXTE  ******/
+#header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left : 50%;
+    font-family: 'Montserrat';
+  }
+
+  #header h1 {
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+  }
+  
+  .verte{color:#18d26e;
+    font-size:100px;
+
+  }
+
+  #header h1 a, #header h1 a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+  }
+  
+  #header h2 {
+    font-size: 35px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1;
+    padding-bottom: 80px;
+  }
+  
+  #header h2 span {
+    color: #ffffff;
+    border-bottom: 2px solid #18d26e;
+    
+  }
+
+  #header h3 {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 90px;
+  }
+
+
+
+/****** RESPONSIVE CONTENU TEXTE  ******/
+
+  @media (max-width: 992px) {
+
+    #header{
+      margin-left: 55%;
+  
+    }
+    #header h1 {
+      font-size: 36px;
+      
+    }
+
+    .verte{color:#18d26e;
+      font-size:80px;
+    }
+    
+    #header h2 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    #header h3 {
+      font-size: 20px;
+      padding-bottom: 50px;
+      
+      
+    }
+   
+  }
+
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 80%;
+      font-size: 15px;
+    }
+    
+    
+    
+  }
+
+
+  @media (max-width: 768px) {
+
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 80%;
+      font-size : 15px;
+    }
+
+    #header{
+      margin-left: 30%;
+  
+    }
+    
+  }
+
+
+  @media (max-width: 576px) {
+
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 75%;
+      font-size: 13px;
+    }
+
+    #header{
+      height: 100%;
+      display: flex;
+      align-items: left;
+      margin-left: 27%;
+    }
+    
+    #header h1 {
+      font-size: 32px;
+        
+    }
+
+    #header h2 {
+      font-size: 18px;
+      line-height: 30px;
+    }
+   
+
+
+  }
+
+
+  @media (max-width: 480px) {
+
+  
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 73%;
+      font-size: 13px;
+    }
+
+    #header{
+      height: 100%;
+      display: flex;
+      align-items: left;
+      margin-left: 28%;
+    }
+    
+    #header h1 {
+      font-size: 33px;  
+    }
+
+    #header h2 {
+      font-size: 19px;
+      line-height: 30px;
+    }
+   
+    #header h3 {
+      font-size: 18px;
+      padding-bottom: 30px;
+    }
+
+
+
+  }

@@ -1,0 +1,159 @@
+/***** CSS DU FORMULAIRE*****/
+
+/*****STRUCTURE*****/
+#contener {background-image: url(../img/form1920.jpg);}
+
+
+
+
+/*****FORMULAIRE*****/
+.structure {/*float:right; margin-right: 20%;*/
+	width:600px;
+	position:absolute;
+	left:500px;
+	top:100px;
+}
+
+fieldset {margin: auto auto;
+	padding: 40px 40px;
+}
+
+legend { text-align: center;
+	font-size: 28px;
+	color:#18d26e;
+	font-weight: bold;
+}
+
+label {
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 500;
+	display: inline-block;
+	/*margin: 10px 10px 10px 10px;
+	padding: 5px 5px 10px 10px;*/
+	width:90px;
+}
+
+input{
+	font-size: 12px;
+	padding: 1px; 
+	width:160px;
+	height: 40px;
+	text-align:center; 
+	margin: 20px auto;
+}
+
+textarea {padding: 20px 25px; 
+	text-align: center; 
+	width:550px; 
+	height: 120px; 
+	vertical-align: top;
+}
+
+button{float: right; 
+	padding: 5px 5px; 
+	margin:20px 10px;
+	background-color:#18d26e;
+	color:#ffffff;
+	font-weight: 600;
+}
+
+
+/****** RETOUR.PHP ******/
+
+div h4 {color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Chakra+Petch";
+	margin-top: 10%;
+}
+
+
+
+
+/*****RESPONSIVE *****/
+
+@media screen and (min-width:1600px){
+	.structure{/*float:right; margin-right: 20%;*/
+		left:650px;
+		top:170px;
+	}
+	#social3{
+		margin-top:0%;
+	}
+
+}
+
+
+@media screen and (max-width:1400px){
+	.structure{/*float:right; margin-right: 20%;*/
+		left:400px;
+	}
+	#social3{
+		margin-top:-0%;
+	}
+
+}
+
+
+@media screen and (max-width:1335px){
+	.structure{/*float:right; margin-right: 20%;*/
+		top:110px;
+		left:40px;
+}
+
+}
+
+@media screen and (max-width:991px){
+	#contener{height:1200px;}
+	.structure{
+		display: block;
+		width:80%;
+		margin:0 auto;
+		top : 270px;
+	}
+
+	label{display:block;}
+	textarea{width:80%;}
+
+
+	.navbar-collapse  {
+		background-color:rgba(255, 255, 255, 0.2);
+		margin-right: 80%;
+		font-size : 15px;
+		
+	  }
+
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background-color:rgba(255, 255, 255, 0.2);
+		margin-right: 80%;
+		font-size : 15px;
+	  }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 75%;
+      font-size: 13px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .navbar-collapse {
+      background-color:rgba(255, 255, 255, 0.2);
+      margin-right: 73%;
+      font-size: 13px;
+	}
+
+}

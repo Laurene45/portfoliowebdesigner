@@ -1,0 +1,206 @@
+/***** CSS DE LA PAGE moi*****/
+
+/*****STRUCTURE *****/
+#contener {background-image: url(../img/quisuisje1920.jpg);
+    height:1800px;
+}
+
+
+
+/****** CONTENU TEXTE  ******/
+.container {padding-top: 6%;}
+
+.about-me .content h3 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #18d26e;
+}
+
+.about-me .content p{
+    color: #ffffff;
+}
+
+.content a {text-decoration : none;
+  Color: #ffffff;
+}
+
+.img-fluid {border: 1mm ridge #fea347;
+  border-radius :5px;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 85px;
+}
+
+/****** SKILLS ******/
+.section-title {color :#fea347;}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {background: rgba(255, 255, 255, 0.15);}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #18d26e;
+}
+
+
+/****** Carousel ******/
+
+.gauche {width:120%;
+    margin-top:5%;
+    margin-left: 65%;
+    border: 1mm ridge #18d26e;
+    border-radius :5px;  
+}
+
+
+/****** RESPONSIVE ******/
+
+
+@media (max-width: 992px) {
+
+  #contener {
+    height:1800px;
+  }
+
+  .img-fluid {
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 75px;
+  }
+
+}
+
+
+@media (max-width: 991px) {
+  .img-fluid {
+    width: 25%;
+  }
+
+  .navbar-collapse {
+    background-color:rgba(255, 255, 255, 0.2);
+    margin-right: 80%;
+    font-size: 15px;
+
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  #contener {
+    height:1800px;
+  }
+  .navbar-collapse {
+    background-color:rgba(255, 255, 255, 0.2);
+    margin-right: 80%;
+    font-size : 15px;
+  }
+
+  .carousel {
+    margin: 30px 10px;
+  }
+  
+  .img-fluid {
+    width: 25%;
+    Margin-left : 70%;
+  }
+
+  .gauche {
+    width:120%;
+  }  
+
+}
+
+
+@media (max-width: 576px) {
+
+  #contener {
+    height:1700px;
+  }
+
+  .navbar-collapse {
+    background-color:rgba(255, 255, 255, 0.2);
+    margin-right: 75%;
+    font-size: 13px;
+  }
+
+  .img-fluid {
+    width: 30%;
+    Margin-left : 70%;
+  }
+
+  .gauche {
+    width:140%;
+  }  
+
+}  
+
+
+@media (max-width: 575.98px) {
+
+  #contener {
+    height:1800px;
+  }
+
+  .navbar-collapse {
+    background-color:rgba(255, 255, 255, 0.2);
+    margin-right: 75%;
+    font-size: 13px;
+  }
+
+  .img-fluid {
+    width: 30%;
+    Margin-left : 70%;
+  }
+
+  .gauche {
+    width:100%;
+  }  
+
+}  
+
+
+@media (max-width: 480px) {
+
+  #contener {
+    height:1600px;
+  }
+
+  .navbar-collapse {
+    background-color:rgba(255, 255, 255, 0.2);
+    margin-right: 75%;
+    font-size: 13px;
+  }
+
+  .img-fluid {
+    width: 30%;
+    Margin-left : 70%;
+  }
+
+  .gauche {
+    width:110%;
+  }  
+
+}  
